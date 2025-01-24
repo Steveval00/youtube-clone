@@ -8,7 +8,7 @@ import { PUBLIC_YOUTUBE_API_KEY } from "$env/static/public";
 dayjs.extend(relativeTime);
 dayjs.extend(localUpdate);
 dayjs.extend(duration);
-const API_KEY = PUBLIC_YOUTUBE_API_KEY;
+export const API_KEY = PUBLIC_YOUTUBE_API_KEY;
 function formatDiffTime(date) {
 	dayjs.updateLocale("it", {
 		relativeTime: {
