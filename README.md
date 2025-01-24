@@ -17,6 +17,12 @@ Benvenuti nel progetto **YouTube Clone in SvelteKit**! Questo progetto è una ri
 
 ---
 
+## Login credentials
+
+- Per le credenziali potete usare:
+- email: prova@gmail.com
+- pass: test00!
+
 ## Requisiti e Installazione
 
 ### Requisiti
