@@ -1,9 +1,9 @@
 import { cercaVideo } from "$lib/utils/mockup.js";
 import { searchQuery } from "$lib/store/index.svelte.js";
-
+import { PUBLIC_YOUTUBE_API_KEY } from "$env/static/public";
 export const load = async ({ parent }) => {
 	let { ytId } = await parent();
-
+	ytId = PUBLIC_YOUTUBE_API_KEY;
 	// Recupera la parola cercata dallo store
 	let currentSearch = "";
 	searchQuery.subscribe((value) => (currentSearch = value));
