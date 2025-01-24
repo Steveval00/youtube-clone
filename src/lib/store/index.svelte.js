@@ -1,5 +1,4 @@
 //import { PRIVATE_YOUTUBE_API_KEY } from "$env/static/private";
-import { PUBLIC_YOUTUBE_CLIENT_ID } from "$env/static/public";
 import { writable, derived } from "svelte/store";
 
 import CanaleYoutube from "../../components/route-components/canale/CanaleYoutube.svelte";
@@ -12,8 +11,6 @@ import CanaleDummy from "../../components/route-components/canale/CanaleDummy.sv
 // Store per la query cercata
 export const searchQuery = writable(""); // Valore di default "Lazza"
 
-// place files you want to import through the `$lib` alias in this folder.
-PUBLIC_YOUTUBE_CLIENT_ID;
 //PRIVATE_YOUTUBE_API_KEY;
 
 let menuOpen = $state(true);
